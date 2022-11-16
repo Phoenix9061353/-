@@ -1,0 +1,194 @@
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: DFkai-sb, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: normal;
+}
+
+p {
+  padding: 0.5rem 0rem;
+}
+
+/* Header */
+header div.top {
+  padding: 1rem;
+  background-image: url('./images/background.png');
+  background-size: cover;
+}
+
+header div.top h1 {
+  font-size: 2.5rem;
+}
+header div.top h3 {
+  font-size: 1rem;
+}
+
+header nav {
+  background-color: black;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+header nav ul li {
+  padding: 0.8rem 1.2rem;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.25rem;
+  transition: all 0.3s ease;
+}
+
+header nav ul li a:hover {
+  color: yellow;
+}
+
+.active {
+  color: yellow;
+}
+
+/* Main */
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main section {
+  padding: 1rem;
+}
+
+/* Home Page */
+section.left {
+  flex: 1 1 200px;
+}
+section.left h3 {
+  margin-bottom: 1rem;
+}
+section.left img {
+  width: 90%;
+}
+section.left table {
+  margin-top: 1rem;
+}
+section.left table,
+tr,
+td {
+  padding: 0.25rem;
+}
+
+section.right {
+  flex: 4 1 500px;
+}
+section.right h3 {
+  font-size: 1.5rem;
+  padding-top: 0.5rem;
+}
+
+section.right ul {
+  padding-left: 2rem;
+}
+
+/* Korean Page */
+main.no-flex {
+  display: block;
+}
+
+section.bottom {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+section.bottom h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+section.bottom h4 {
+  color: rgb(0, 90, 91);
+  font-size: 1.5rem;
+}
+section.bottom h5 {
+  color: rgb(6, 120, 120);
+  font-size: 1.05rem;
+}
+section.bottom div {
+  align-content: center;
+  margin: 1rem 2rem;
+  border: 3px solid burlywood;
+  padding: 0.5rem;
+}
+
+/* Japan Page */
+div.japan,
+div.competition {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+div.info {
+  flex: 3 1 600px;
+  padding: 2rem;
+}
+
+div.japan img {
+  flex: 1 1 300px;
+  max-width: 60vh;
+}
+
+div.text {
+  padding: 1rem;
+  flex: 5 1 300px;
+}
+
+div.text h3 {
+  font-size: 2rem;
+  color: rgb(12, 122, 92);
+}
+
+#piechart {
+  flex: 1 1 300px;
+}
+
+/* China Page */
+.china h3 {
+  font-size: 2rem;
+  color: rgb(12, 122, 92);
+}
+
+.china table {
+  min-width: 1000px;
+}
+
+.china th {
+  color: white;
+  background-color: rgb(86, 224, 192);
+}
+
+.china table,
+td,
+th {
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 2px 4px;
+}
+
+/* Taiwan Page */
+.taiwan h3 {
+  font-size: 2rem;
+  color: rgb(12, 122, 92);
+}
+.taiwan ul {
+  margin-left: 2rem;
+}
